@@ -1,3 +1,4 @@
+1D ARRAY
 print("please decide array size")
 num = input()
 arr = []
