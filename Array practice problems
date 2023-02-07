@@ -1,0 +1,11 @@
+print("please decide array size")
+num = input()
+arr = []
+print("array size is", num)
+num = int(num)
+for i in range(num):
+  element = input()
+  arr.append(element)
+print("The array elements are",arr)
+for i in range(num):
+  print(arr[i])
