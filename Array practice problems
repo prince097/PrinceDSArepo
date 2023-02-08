@@ -20,3 +20,9 @@ for i in range(row):
   for j in range(col):
     arr[i][j]=i*j;
 print(arr)
+
+Notes: initialisation of 2d array elements
+To initialize all values to 0, just use a = [[0 for x in range(columns)] for y in range(rows)]
+
+List comprehe nsion syntax
+newlist = [expression for item in iterable if condition == True]
