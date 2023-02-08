@@ -10,3 +10,13 @@ for i in range(num):
 print("The array elements are",arr)
 for i in range(num):
   print(arr[i])
+  
+  
+2D ARRAY PROBLEM
+row=int(input("Enter no of rows"))
+col=int(input("Enter no of cols"))
+arr=[[0 for i in range(col)] for j in range(row)]
+for i in range(row):
+  for j in range(col):
+    arr[i][j]=i*j;
+print(arr)
