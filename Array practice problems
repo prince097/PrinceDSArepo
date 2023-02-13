@@ -26,3 +26,34 @@ To initialize all values to 0, just use a = [[0 for x in range(columns)] for y i
 
 List comprehe nsion syntax
 newlist = [expression for item in iterable if condition == True]
+
+DELETION OF ELEMENT FROM AN ARRAY
+
+print("Enter the size of your array")
+a = int(input())
+arr = []
+for i in range(a):
+  arr.append(int(input()))
+print("The array is", arr)
+print("Enter no to delete from array")
+d = int(input())
+if d in arr:
+  arr.remove(d)
+  print('The new array is', arr)
+else:
+  print("The value does not exist in array")
+  
+ASCENDING ORDER
+
+arr = [2,1,34,9,112]
+temp=0
+for i in range(0,len(arr)):
+  print("Elemenst of original array is", arr)
+for i in range(0,len(arr)):
+  for j in range(i+1,len(arr)):
+    if(arr[i]>arr[j]):
+      temp=arr[i]
+      arr[i]=arr[j]
+      arr[j]=temp
+print(arr)
+    
